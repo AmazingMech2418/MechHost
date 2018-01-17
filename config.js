@@ -2,7 +2,7 @@ var config = {
 data: [
   {
   location: "/MechHost/about",
-    code: "<h1>About MechHost</h1>"
+    code: "<html><head><title>About</title></head><body><h1>About MechHost</h1><p>Host amazing webpages with advanced domains with MechHost. We also can make you websites.</p></body></html>"
   }
 
 
