@@ -1,1 +1,10 @@
 <script src="/MechHost/config.js"></script>
+<script>
+  var a = 0;
+  while (config.data[a].location !== location.pathname) {
+    a++;
+    console.log(a.toString()+"no");
+  }
+  var code = config.data[a].code;
+  location.assign("javascript:innerHTML="+code);
+</script>
