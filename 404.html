@@ -1,5 +1,7 @@
-<script src="/MechHost/config.js"></script>
-<script>
+<html>
+  <body>
+    <script src="/MechHost/config.js"></script>
+    <script>
   var a = 0;
   while (config.data[a].location !== location.pathname) {
     a++;
@@ -7,4 +9,6 @@
   }
   var code = config.data[a].code;
   location.assign("javascript:innerHTML="+code);
-</script>
+    </script>
+  </body>
+</html>
